@@ -17,31 +17,25 @@ Consente la **registrazione utenti**, la **gestione menù giornaliero/settimanal
 
 ---
 
-## 📦 Struttura del progetto
+## 📁 Struttura del progetto
 
-mensa/
-│
-├── backend/
-│ ├── src/
-│ │ ├── controllers/ → Logica delle rotte
-│ │ ├── models/ → Schemi Mongoose
-│ │ ├── routes/ → Definizione API
-│ │ ├── utils/ → Script creazione admin e funzioni di supporto
-│ │ └── index.js → Entry point del server Express
-│ ├── package.json
-│ └── .env
-│
-├── frontend/
-│ ├── src/
-│ │ ├── pages/ → Login, Register, DashboardAdmin, DashboardUser
-│ │ ├── App.js → Routing principale
-│ │ └── index.js
-│ ├── public/
-│ ├── package.json
-│ └── tailwind.config.js
-│
-└── README.md
-
+- **mensa/**
+  - **backend/**
+    - `src/controllers/` → Logica delle rotte
+    - `src/models/` → Schemi Mongoose
+    - `src/routes/` → Definizione API
+    - `src/utils/` → Script creazione admin
+    - `src/index.js` → Entry point del server Express
+    - `package.json`
+    - `.env`
+  - **frontend/**
+    - `src/pages/` → Login, Register, DashboardAdmin, DashboardUser
+    - `src/App.js` → Routing principale
+    - `src/index.js`
+    - `public/`
+    - `package.json`
+    - `tailwind.config.js`
+  - `README.md`
 
 ---
 
