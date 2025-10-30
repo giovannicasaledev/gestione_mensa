@@ -25,8 +25,8 @@ mensa/
 │ ├── src/
 │ │ ├── controllers/ → Logica delle rotte
 │ │ ├── models/ → Schemi Mongoose
-│ │ ├── routes/ → Definizione delle API
-│ │ ├── utils/ → Script di setup admin, helpers, ecc.
+│ │ ├── routes/ → Definizione API
+│ │ ├── utils/ → Script creazione admin e funzioni di supporto
 │ │ └── index.js → Entry point del server Express
 │ ├── package.json
 │ └── .env
